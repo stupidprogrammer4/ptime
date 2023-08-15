@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/ptime.dir/src/main.c.o CMakeFiles/ptime.dir/src/ptime.c.o -o ptime  -lm 

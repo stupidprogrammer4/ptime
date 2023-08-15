@@ -1,0 +1,3 @@
+/home/joker/programming/proj/ptime/build/CMakeFiles/ptime.dir
+/home/joker/programming/proj/ptime/build/CMakeFiles/edit_cache.dir
+/home/joker/programming/proj/ptime/build/CMakeFiles/rebuild_cache.dir
