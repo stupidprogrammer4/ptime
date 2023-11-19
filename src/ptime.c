@@ -150,21 +150,21 @@ _Bool isLeap(ptime *pt) {
     return isLeapYear(pt->pt_year);
 }
 
-ptime *plusdays(ptime *pt, int add) {
+ptime *addDays(ptime *pt, int add) {
     gtime *gt = convertToGregourian(pt);
     gt->tm_mday += add;
     mktime(gt);
     return convertToJalali(gt);
 }
 
-ptime *plusmonths(ptime *pt, int add) {
+ptime *addMonths(ptime *pt, int add) {
     gtime *gt = convertToGregourian(pt);
     gt->tm_mon += add;
     mktime(gt);
     return convertToJalali(gt);
 }
 
-ptime *plusyears(ptime *pt, int add) {
+ptime *addYears(ptime *pt, int add) {
     gtime *gt = convertToGregourian(pt);
     gt->tm_year += add;
     mktime(gt);
